@@ -1,0 +1,33 @@
+.bookItem {
+    position: relative;
+    cursor: pointer;
+}
+
+.image {
+    aspect-ratio: 3 / 4.46;
+    object-fit: cover;
+    border-radius: 20px;
+    transform: scale(1.04);
+}
+
+
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    color: white;
+    background: rgba(50, 61, 109, 0.5);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.title {
+    font-size: 24px;
+}
+
+.author {
+    font-size: 30px;
+    font-weight: bold;
+    color: #2FB5FC;
+}
